@@ -1,7 +1,7 @@
 const mysql = require('mysql2/promise');
 require('dotenv').config();
 
-let connection; // module-level variable to store the connection
+let connection;
 
 const createMySQLConnection = async () => {
   try {
@@ -21,7 +21,7 @@ const createMySQLConnection = async () => {
   }
 };
 
-// export a function to get the database connection
+// export an  async function to get the database connection
 module.exports = {
   getConnection: async () => {
     return await createMySQLConnection();
