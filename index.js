@@ -1,16 +1,16 @@
-// load in ENV variables
-const { getConnection } = require('./db/client');
+const Task = require('./lib/classes/Task.js');
+const Department = require('./lib/classes/Department.js');
+const { getConnection } = require('./db/client.js');
+const Employee = require('./lib/classes/Employee.js');
+const Role = require('./lib/classes/Role.js');
 
-const selectEmployees = async () => {
-  try {
-    const connection = await getConnection();
-
-    const [results, fields] = await connection.execute('SELECT * FROM employee');
-    // Do something with results
-    console.log(results, fields);
-  } catch (error) {
-    console.error('Error executing SQL query:', error);
-  }
+// initialize the application and show prompts
+const init = () => {
+  const role = new Role(getConnection);
+  const employee = new Employee(getConnection);
+  const department = new Department(getConnection);
+  const task = new Task(department, role, employee);
+  task.select();
 };
 
-selectEmployees();
+init();
