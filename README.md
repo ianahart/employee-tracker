@@ -47,17 +47,14 @@ Manage employee data using this command line Content Management System (CMS) bui
 - To exit the application, choose `EXIT` from the list of task choices.
 
 ## Visuals
+
+[Video Demo](https://drive.google.com/file/d/1czmYCU2HHiSrkmSbQQ-7gPi6NJJpT9wk/view)
+
 <img width="650" alt="employee-tracker" src="https://github.com/ianahart/employee-tracker/assets/29121238/458049a9-ab7f-4c14-b03b-1233d7844228">
 
-
-
-<video src="https://github.com/ianahart/employee-tracker/assets/29121238/7c948782-0cf3-4532-af00-37df705c0fd3" width="800" />
-
-![Video Demo](https://drive.google.com/file/d/1czmYCU2HHiSrkmSbQQ-7gPi6NJJpT9wk/view)
-
-
-
-
+<div>
+<video src="https://github.com/ianahart/employee-tracker/assets/29121238/7c948782-0cf3-4532-af00-37df705c0fd3" width="650" controls type="video/mp4" />
+</div>
 
 ## Tests
 
@@ -68,6 +65,7 @@ N/A
 Table schema structure provided by edX Boot Camps LLC.
 
 ## References
+
 N/A
 
 ## License
