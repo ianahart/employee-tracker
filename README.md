@@ -51,6 +51,14 @@ Manage employee data using this command line Content Management System (CMS) bui
 
 
 
+<video src="https://github.com/ianahart/employee-tracker/assets/29121238/7c948782-0cf3-4532-af00-37df705c0fd3" width="800" />
+
+![Video Demo](https://drive.google.com/file/d/1czmYCU2HHiSrkmSbQQ-7gPi6NJJpT9wk/view)
+
+
+
+
+
 ## Tests
 
 N/A
@@ -60,9 +68,7 @@ N/A
 Table schema structure provided by edX Boot Camps LLC.
 
 ## References
-
-- Express.js Documentation https://expressjs.com/
-- UUID Npm Package https://www.npmjs.com/package/uuid
+N/A
 
 ## License
 
