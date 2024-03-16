@@ -47,6 +47,9 @@ Manage employee data using this command line Content Management System (CMS) bui
 - To exit the application, choose `EXIT` from the list of task choices.
 
 ## Visuals
+<img width="650" alt="employee-tracker" src="https://github.com/ianahart/employee-tracker/assets/29121238/458049a9-ab7f-4c14-b03b-1233d7844228">
+
+
 
 ## Tests
 
